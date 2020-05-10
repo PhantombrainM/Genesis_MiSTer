@@ -460,7 +460,7 @@ system system
 	.ENABLE_FM(~dbg_menu | ~status[32]),
 	.ENABLE_PSG(~dbg_menu | ~status[33]),
 	.EN_HIFI_PCM(status[23]), // Option "N"
-	.LADDER(~status[11]),
+	
 	.LPF_MODE(status[15:14]),
 
 	.OBJ_LIMIT_HIGH(status[31]),
