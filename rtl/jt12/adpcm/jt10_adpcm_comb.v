@@ -1,43 +1,19 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@PhantombrainM
-jotego /
-jt12
-
-9
-70
-
-    6
-
-Code
-Issues 2
-Pull requests 1
-Actions
-Projects 0
-Wiki
-Security 0
-
-    Insights
-
-jt12/hdl/adpcm/jt10_adpcm_comb.v
-@jotego jotego added missing file ce993dc on 31 Mar 2019
-134 lines (118 sloc) 3.96 KB
 /* This file is part of JT12.
+
  
     JT12 program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
+
     JT12 program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
+
     You should have received a copy of the GNU General Public License
     along with JT12.  If not, see <http://www.gnu.org/licenses/>.
+
     Author: Jose Tejada Gomez. Twitter: @topapate
     Version: 1.0
     Date: 21-03-2019
@@ -156,17 +132,3 @@ always @(posedge clk or negedge rst_n)
     end
 
 endmodule // jt10_adpcm    
-
-    © 2020 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
