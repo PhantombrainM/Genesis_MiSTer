@@ -121,7 +121,7 @@ module system
 	input         ROM_ACK2, 
 	
 	input         EN_HIFI_PCM,
-	input         LADDER,
+
 	input         OBJ_LIMIT_HIGH,
 
 	output		  TRANSP_DETECT
